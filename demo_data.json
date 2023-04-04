@@ -1,0 +1,40 @@
+{
+    'email': 'filiphradil95@gmail.com',
+    'akce': '1' // 1 = add, 0 = remove
+}
+
+// WEBHOOK PRO COMPLETED ORDER
+{
+    'produkt': '2', // 1 = plant a tree, 2 = save a tree
+    'typ_objednavky': '1', // 1 = for oneself, 2 = as a gift
+    'typ_platby': '1' // 1 = one-time payment, 2 = monthly payment
+
+    // save a tree
+    'celkovy_pocet': '10',
+    'slevovy_kod': 'SZMCSK10',
+    'email': 'filiphradil95@gmail.com',
+    'jmeno': 'Filípek',
+    'vzkaz': '10 trees for a beautiful nature',
+    'anonymni': '0', // 0 = visible in the wall of fame, 1 = invisible
+    'vop': '1', // always 1, otherwise the form is not submitted
+    'gdpr': '1', // 1 or 0
+    'celkova_cena': '8900',
+    'lang': 'en',
+    'currency': 'eur',
+
+    // address => only for typ_objednvky 'as a gift'
+    'adresa': 'Pod Doubravkou 1200/4',
+    'mesto': 'Teplice',
+    'psc': '41501',
+    'telefon': '+420774044320',
+    'zeme': 'Czech Republic',
+
+    // gifts => only for typ_objednvky 'as a gift'
+    'gifts': {
+        'pocet': '10', // number of trees
+        'jmeno': 'Ivonka ŠENKY',
+        'venovani': 'Prani a venovani',
+        'certifikat': '1',
+        'darek': '1'
+    }
+}
